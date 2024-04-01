@@ -1,9 +1,13 @@
 {
-  "name": "atm",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@asma000/atm",
+  "version": "3.0.0",
+  "description": "\"# ATM\"",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin":"index.js", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
